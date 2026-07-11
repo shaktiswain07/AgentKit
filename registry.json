@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "generated": "2026-06-24T15:59:50.185Z",
   "repository": "https://github.com/Lamatic/AgentKit",
-  "count": 79,
+  "count": 80,
   "typeCounts": {
     "kit": 30,
     "bundle": 6,
@@ -4283,4 +4283,52 @@
       }
     }
   ]
+}
+
+{
+  "slug": "venture-architect",
+  "name": "VentureArchitect",
+  "description": "AI-powered venture architecture agent that transforms startup ideas into complete business blueprints including market analysis, technical architecture, roadmap, budget estimation, and investor pitch.",
+  "version": "1.0.0",
+  "type": "kit",
+  "tags": [
+    "startup",
+    "business",
+    "generative",
+    "planning"
+  ],
+  "author": {
+    "name": "Shakti Sourav Swain"
+  },
+  "steps": [
+    {
+      "id": "venture-architect",
+      "type": "mandatory"
+    }
+  ],
+  "links": {},
+  "path": "kits/venture-architect",
+  "flows": {
+    "count": 1,
+    "names": [
+      "venture-architect"
+    ]
+  },
+  "resources": {
+    "prompts": 1,
+    "scripts": 0,
+    "modelConfigs": 1,
+    "constitutions": 1,
+    "triggers": 0,
+    "memory": 0,
+    "tools": 0
+  },
+  "capabilities": {
+    "hasApps": false,
+    "hasAgentMd": true,
+    "hasReadme": true,
+    "hasEnvExample": false,
+    "hasChatWidget": false,
+    "hasSearchWidget": false
+  }
 }
